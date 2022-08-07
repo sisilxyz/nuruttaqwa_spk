@@ -1,0 +1,1 @@
+# nuruttaqwa_spk

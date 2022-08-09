@@ -184,6 +184,8 @@ class WelcomeController extends Controller
             $data['rekomendasi2'][$n] = $key;
             $m++;$n++;  
         }
+
+
         // $data['rekomendasisave'] = array($data['rekoemndasi2'][0], $data['rekomendasi2'][1]);
 
         // dd($data['rekomendasi1'], $data['rekomendasi2']);
@@ -208,8 +210,10 @@ class WelcomeController extends Controller
         $rekomendasi = new Rekomendasi();
         $rekomendasi->nama_siswa = $data['siswa']['nama'];
         $rekomendasi->nisn = $data['siswa']['nisn'];
-        $rekomendasi->jurusan = ''.$data["rekomendasi2"][0].', '.$data["rekomendasi2"][1];
+        $rekomendasi->jurusan = ''.$data["rekomendasi2"][0].', '.$data["rekomendasi2"][1].', '.$data["rekomendasi2"][2].', '.$data["rekomendasi2"][3];
         $rekomendasi->save();
+
+      
         // dd(($data), $minMax, $normalisasi, $nilai);
 
 

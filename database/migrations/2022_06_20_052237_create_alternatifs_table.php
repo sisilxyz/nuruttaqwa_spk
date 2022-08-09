@@ -16,7 +16,7 @@ return new class extends Migration
         Schema::create('alternatifs', function (Blueprint $table) {
             $table->id();
             $table->string('nama_alternatif', 191);
-            $table->int('nisn');
+            $table->integer('nisn');
             $table->timestamps();
         });
     }

@@ -61,12 +61,19 @@
                         </tr>
                         <tr>
                             <td>Rekomendasi Jurusan 1:</td>
-                            
                             <td><b><?= $data['rekomendasi2'][0] ?></b></td>
                         </tr>
                         <tr>
                             <td>Rekomendasi Jurusan 2:</td>
                             <td><b><?= $data['rekomendasi2'][1] ?></b></td>
+                        </tr>
+                        <tr>
+                            <td>Rekomendasi Jurusan 3:</td>
+                            <td><b><?= $data['rekomendasi2'][2] ?></b></td>
+                        </tr>
+                        <tr>
+                            <td>Rekomendasi Jurusan 4:</td>
+                            <td><b><?= $data['rekomendasi2'][3] ?></b></td>
                         </tr>
                         <tr>
                             <td>Nilai Akhir:</td>

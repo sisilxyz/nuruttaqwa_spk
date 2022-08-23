@@ -15,7 +15,9 @@ return new class extends Migration
     {
         Schema::create('rekomendasi', function (Blueprint $table) {
             $table->id();
-            $table->string('nama_rekomendasi', 191);
+            $table->integer('nisn');
+            $table->string('nama_siswa', 191);
+            $table->string('jurusan');
             $table->timestamps();
         });
     }

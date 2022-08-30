@@ -70,21 +70,15 @@
                     if(data == 'Siswa telah mendapatkan rekomendasi'){
                         $('#siswa_list').html(data);
                         document.getElementById("fsubmit").disabled = true;
-                        // console.log('telah');
                     }else if(data == 'Siswa belum mendapatkan rekomendasi'){
                         $('#siswa_list').html(data);
                         document.getElementById("fsubmit").disabled = false;
-                        // console.log('telah');
                     }else{
                         $('#siswa_list').html('Siswa tidak terdaftar');
                         document.getElementById("fsubmit").disabled = true;
-                        // console.log('belum');
                     }
-                    // $('#siswa_list').html(data);
-                    // console.log(data);
                 }
             })
-            // end of ajax call
         });
     });
 </script>

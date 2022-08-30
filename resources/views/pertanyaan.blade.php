@@ -40,10 +40,9 @@
                 <div class="col-4 text-left mt-2">Nama Siswa</div>
                 <div class="col-8 text-left mt-2" style="margin-bottom: 50px;"><input type="text" value="<?= $data2[0]['nama_alternatif'] ?>" name="nama" placeholder="Masukkan nama siswa" style="width: 100%;" disabled></div>
                 <input type="hidden" value="<?= $data2[0]['nama_alternatif'] ?>" name="nama">
-                <table class="table">
+              <table class="table">
 
                 <div class="col-12 text-center mt-2 hm-0 font-weight-bold text-danger">Mohon Untuk Mengisi Nilai Mata Pelajaran Sesuai Nilai Raport Terakhir di SMP!</div><br><br>
-                
                     <thead>
                         <tr>
                             @foreach($kriteria as $key => $value)
